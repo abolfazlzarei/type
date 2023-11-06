@@ -1,0 +1,23 @@
+html {
+  color: rgb(47, 43, 17);
+  background: radial-gradient(
+    circle,
+    rgb(60, 49, 43) ,
+    rgb(103, 90, 77)
+  );
+}
+
+body {
+  margin: 0;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 5rem;
+}
